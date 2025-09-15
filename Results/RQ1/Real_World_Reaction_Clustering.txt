@@ -1,0 +1,78 @@
+=== CLUSTERING ANALYSIS ===
+/mnt/beegfs/home/davide.bassi/miniconda3/envs/JRC_model/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+Silhouette Score for 2-cluster solution: 0.119
+Target group clustering purity: 0.805
+Target groups predominantly in cluster: 1
+Chi-square test for cluster-group association: χ² = 29.590, p = 0.000
+
+=== VARIANCE ANALYSIS ===
+Target groups variance (median): 50.96
+Other groups variance (median): 51.26
+Mann-Whitney U test for variance: U = 33142.5, p = 0.913
+
+=== PEAK TIMING ANALYSIS ===
+Target groups peak timing (median period index): 7.0
+Other groups peak timing (median period index): 6.0
+KS test for peak timing: D = 0.199, p = 0.000
+
+=== MULTIVARIATE ANALYSIS ===
+Between-group distance: 1.164
+Within-group distance (target): 3.515
+Within-group distance (other): 3.800
+F-ratio-like statistic: 0.318
+
+=== PERIOD-BY-PERIOD ANALYSIS ===
+  T1-20: p = 0.006 *
+  T2-20: p = 0.000 *
+  T3-20: p = 0.000 *
+  T1-21: p = 0.000 *
+  T2-21: p = 0.003 *
+  T3-21: p = 0.000 *
+  T1-22: p = 0.000 *
+  T2-22: p = 0.000 *
+  T2-23: p = 0.028 *
+  T2-24: p = 0.001 *
+
+Periods with significant differences: 10
+
+
+============================================================
+STATISTICAL ANALYSIS SUMMARY
+============================================================
+
+1. CLUSTERING EVIDENCE:
+   - Silhouette Score: 0.119
+   - Target Group Purity: 0.805
+   - Chi-square p-value: 0.000
+   → Clustering association: SIGNIFICANT
+
+2. VARIANCE EVIDENCE:
+   - Target median variance: 50.96
+   - Other median variance: 51.26
+   - Mann-Whitney p-value: 0.913
+   → Variance difference: NOT SIGNIFICANT
+
+3. PEAK TIMING EVIDENCE:
+   - Target median peak: 7.0
+   - Other median peak: 6.0
+   - KS test p-value: 0.000
+   → Peak timing difference: SIGNIFICANT
+
+4. MULTIVARIATE EVIDENCE:
+   - Between-group distance: 1.164
+   - F-ratio statistic: 0.318
+
+5. PERIOD-SPECIFIC EVIDENCE:
+   - Significant periods: 10
+     * T1-20: p = 0.006
+     * T2-20: p = 0.000
+     * T3-20: p = 0.000
+     * T1-21: p = 0.000
+     * T2-21: p = 0.003
+
+============================================================
+OVERALL CONCLUSION:
+Evidence supporting distinct patterns: 3/4 tests significant
+→ STRONG evidence for distinct temporal patterns in target groups
+============================================================
