@@ -19,3 +19,9 @@ Control         50     1677     24      Contra   0.200    0.223    0.777      0.
 Pro             134    5790     41      Contra   0.251    0.231    1.006      0.052 
                                         Neutral  0.565    0.571    0.977      0.027 
                                         Pro      0.184    0.198    0.896      0.057
+
+Preference Index Interpretation:
+  > 1.0: Over-targeting (preference)
+  < 1.0: Under-targeting (avoidance)
+  ≈ 1.0: Random targeting
+SE = Standard Error of the mean preference index across users
