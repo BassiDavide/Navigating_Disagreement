@@ -1,0 +1,1392 @@
+{
+  "VideoComment": {
+    "Long": {
+      "stratum_info": {
+        "name": "Long",
+        "word_count_range": [
+          "17",
+          "388"
+        ],
+        "mean_word_count": 34.04382470119522,
+        "total_comments": 4016,
+        "group_distribution": {
+          "Pro": "1178",
+          "Contra-Echo": "947",
+          "Contra-Cross": "804",
+          "Contra-Balance": "624",
+          "Control": "463"
+        }
+      },
+      "macro_results": {
+        "Toxicity": {
+          "group_means": {
+            "Contra-Balance": 0.06217547829611606,
+            "Contra-Cross": 0.06624175273132765,
+            "Contra-Echo": 0.06552735110255486,
+            "Control": 0.06384685329757202,
+            "Pro": 0.07580834624958303
+          },
+          "anova": {
+            "f_stat": 1.5754005679776046,
+            "p_value": 0.17968216840640341,
+            "eta_sq": 0.013342326686163765
+          }
+        },
+        "Communication_Style": {
+          "group_means": {
+            "Contra-Balance": 0.31303826057510337,
+            "Contra-Cross": 0.3146085597287856,
+            "Contra-Echo": 0.3168476378778982,
+            "Control": 0.3139899567183412,
+            "Pro": 0.2958603709416127
+          },
+          "anova": {
+            "f_stat": 2.1332207834043073,
+            "p_value": 0.07568538261061401,
+            "eta_sq": 0.017981647714842414
+          }
+        }
+      },
+      "micro_results": {
+        "toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.15335809174884793,
+            "Contra-Cross": 0.16060005384870638,
+            "Contra-Echo": 0.16295734315115426,
+            "Control": 0.15840750706903056,
+            "Pro": 0.18437328473914028
+          },
+          "anova": {
+            "f_stat": 1.7200020061819123,
+            "p_value": 0.14434655597631657
+          }
+        },
+        "severe_toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.006116058987013941,
+            "Contra-Cross": 0.007336794793881524,
+            "Contra-Echo": 0.006361432469698412,
+            "Control": 0.006220802025356775,
+            "Pro": 0.006796653129032013
+          },
+          "anova": {
+            "f_stat": 0.31775966307044823,
+            "p_value": 0.8661030878010404
+          }
+        },
+        "identity_attack_score": {
+          "group_means": {
+            "Contra-Balance": 0.05565517080158381,
+            "Contra-Cross": 0.06020379462842526,
+            "Contra-Echo": 0.043644078265311435,
+            "Control": 0.04569199821444893,
+            "Pro": 0.050558290915005286
+          },
+          "anova": {
+            "f_stat": 1.7051468633216529,
+            "p_value": 0.14765848873331458
+          }
+        },
+        "insult_score": {
+          "group_means": {
+            "Contra-Balance": 0.0897618244924891,
+            "Contra-Cross": 0.09206591170671191,
+            "Contra-Echo": 0.10940385144329165,
+            "Control": 0.10529044611702032,
+            "Pro": 0.12705336247838353
+          },
+          "anova": {
+            "f_stat": 2.5528064559930312,
+            "p_value": 0.038412844097919875
+          }
+        },
+        "profanity_score": {
+          "group_means": {
+            "Contra-Balance": 0.04112303260064489,
+            "Contra-Cross": 0.05449237913534647,
+            "Contra-Echo": 0.04656785590648824,
+            "Control": 0.045253339902975274,
+            "Pro": 0.059826994646750446
+          },
+          "anova": {
+            "f_stat": 1.978144889854047,
+            "p_value": 0.09672953433771318
+          }
+        },
+        "threat_score": {
+          "group_means": {
+            "Contra-Balance": 0.027038691146116622,
+            "Contra-Cross": 0.022751582274894457,
+            "Contra-Echo": 0.02422954537938516,
+            "Control": 0.022217026456600245,
+            "Pro": 0.026241491589186483
+          },
+          "anova": {
+            "f_stat": 0.32843186089305115,
+            "p_value": 0.8588781648694278
+          }
+        },
+        "attack_on_commenter_score": {
+          "group_means": {
+            "Contra-Balance": 0.2319889602252661,
+            "Contra-Cross": 0.25027006754414965,
+            "Contra-Echo": 0.21180426019376491,
+            "Control": 0.25591551771660337,
+            "Pro": 0.2345317624074624
+          },
+          "anova": {
+            "f_stat": 1.2431718804822558,
+            "p_value": 0.2917446678749291
+          }
+        },
+        "inflammatory_score": {
+          "group_means": {
+            "Contra-Balance": 0.5054954469507816,
+            "Contra-Cross": 0.49463092715757556,
+            "Contra-Echo": 0.5077969894745654,
+            "Control": 0.46759375401611386,
+            "Pro": 0.46694569861388757
+          },
+          "anova": {
+            "f_stat": 2.3188676342160646,
+            "p_value": 0.056197381488771875
+          }
+        },
+        "obscene_score": {
+          "group_means": {
+            "Contra-Balance": 0.16639633180492633,
+            "Contra-Cross": 0.18596928326471468,
+            "Contra-Echo": 0.18267618381123193,
+            "Control": 0.1943825389830267,
+            "Pro": 0.17847174184578973
+          },
+          "anova": {
+            "f_stat": 0.3378796349230251,
+            "p_value": 0.8524150629981515
+          }
+        },
+        "spam_score": {
+          "group_means": {
+            "Contra-Balance": 0.09872466414280186,
+            "Contra-Cross": 0.09866314568256525,
+            "Contra-Echo": 0.10528215851031428,
+            "Control": 0.11108087931786265,
+            "Pro": 0.07874547594471366
+          },
+          "anova": {
+            "f_stat": 1.3088662220439775,
+            "p_value": 0.2657070724637677
+          }
+        },
+        "unsubstantial_score": {
+          "group_means": {
+            "Contra-Balance": 0.5625858997517412,
+            "Contra-Cross": 0.5435093749949227,
+            "Contra-Echo": 0.576678597399614,
+            "Control": 0.5409770935580995,
+            "Pro": 0.5206071758962107
+          },
+          "anova": {
+            "f_stat": 3.537048349868824,
+            "p_value": 0.007399603768468388
+          }
+        }
+      },
+      "significant_features": [
+        [
+          "insult_score",
+          0.038412844097919875,
+          2.5528064559930312,
+          {
+            "Contra-Balance": 0.0897618244924891,
+            "Contra-Cross": 0.09206591170671191,
+            "Contra-Echo": 0.10940385144329165,
+            "Control": 0.10529044611702032,
+            "Pro": 0.12705336247838353
+          }
+        ],
+        [
+          "unsubstantial_score",
+          0.007399603768468388,
+          3.537048349868824,
+          {
+            "Contra-Balance": 0.5625858997517412,
+            "Contra-Cross": 0.5435093749949227,
+            "Contra-Echo": 0.576678597399614,
+            "Control": 0.5409770935580995,
+            "Pro": 0.5206071758962107
+          }
+        ]
+      ]
+    },
+    "Short": {
+      "stratum_info": {
+        "name": "Short",
+        "word_count_range": [
+          "1",
+          "8"
+        ],
+        "mean_word_count": 4.935784085621219,
+        "total_comments": 4298,
+        "group_distribution": {
+          "Contra-Echo": "1405",
+          "Contra-Cross": "1039",
+          "Pro": "700",
+          "Contra-Balance": "695",
+          "Control": "459"
+        }
+      },
+      "macro_results": {
+        "Toxicity": {
+          "group_means": {
+            "Contra-Balance": 0.04588451411561925,
+            "Contra-Cross": 0.04148165847953179,
+            "Contra-Echo": 0.0507259618791539,
+            "Control": 0.0481187640296545,
+            "Pro": 0.0519607174505632
+          },
+          "anova": {
+            "f_stat": 1.2059579818543726,
+            "p_value": 0.3074841072527463,
+            "eta_sq": 0.010605934845092493
+          }
+        },
+        "Communication_Style": {
+          "group_means": {
+            "Contra-Balance": 0.32162433353281483,
+            "Contra-Cross": 0.3214920977507745,
+            "Contra-Echo": 0.32163713577815917,
+            "Control": 0.33959446900371304,
+            "Pro": 0.3276919188332095
+          },
+          "anova": {
+            "f_stat": 1.7998243569312173,
+            "p_value": 0.12776309732093927,
+            "eta_sq": 0.015746519008732602
+          }
+        }
+      },
+      "micro_results": {
+        "toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.11276690612106262,
+            "Contra-Cross": 0.10288708937703402,
+            "Contra-Echo": 0.1225633799307011,
+            "Control": 0.11901510844904982,
+            "Pro": 0.12376081725561519
+          },
+          "anova": {
+            "f_stat": 1.0770109647712,
+            "p_value": 0.367293023886176
+          }
+        },
+        "severe_toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.0064059918452670245,
+            "Contra-Cross": 0.005925882088036801,
+            "Contra-Echo": 0.006468049554797912,
+            "Control": 0.006038222567396474,
+            "Pro": 0.00630738120501968
+          },
+          "anova": {
+            "f_stat": 0.0496956628272089,
+            "p_value": 0.995358194440614
+          }
+        },
+        "identity_attack_score": {
+          "group_means": {
+            "Contra-Balance": 0.02809560943607948,
+            "Contra-Cross": 0.02624482422617445,
+            "Contra-Echo": 0.026592949271575864,
+            "Control": 0.025379528161446847,
+            "Pro": 0.030724521148918705
+          },
+          "anova": {
+            "f_stat": 0.31174335900674327,
+            "p_value": 0.8701321828864444
+          }
+        },
+        "insult_score": {
+          "group_means": {
+            "Contra-Balance": 0.058002910283329996,
+            "Contra-Cross": 0.050265414947306714,
+            "Contra-Echo": 0.07346005922132753,
+            "Control": 0.07237764803170596,
+            "Pro": 0.07922371705017837
+          },
+          "anova": {
+            "f_stat": 2.7127054016905223,
+            "p_value": 0.02957420118308332
+          }
+        },
+        "profanity_score": {
+          "group_means": {
+            "Contra-Balance": 0.0455832067606534,
+            "Contra-Cross": 0.04100550990422649,
+            "Contra-Echo": 0.04703268597347975,
+            "Control": 0.05080122252700777,
+            "Pro": 0.05045412646192349
+          },
+          "anova": {
+            "f_stat": 0.6024808273029835,
+            "p_value": 0.6610328485848354
+          }
+        },
+        "threat_score": {
+          "group_means": {
+            "Contra-Balance": 0.024452460247322987,
+            "Contra-Cross": 0.02256123033441236,
+            "Contra-Echo": 0.028238647323041245,
+            "Control": 0.015100854441320196,
+            "Pro": 0.02129374158172366
+          },
+          "anova": {
+            "f_stat": 1.3394185858678949,
+            "p_value": 0.25435524464050785
+          }
+        },
+        "attack_on_commenter_score": {
+          "group_means": {
+            "Contra-Balance": 0.25098427856808553,
+            "Contra-Cross": 0.2529191039085642,
+            "Contra-Echo": 0.23596571977918648,
+            "Control": 0.27576081826234905,
+            "Pro": 0.2759708284286806
+          },
+          "anova": {
+            "f_stat": 1.912592205495273,
+            "p_value": 0.10725731927768012
+          }
+        },
+        "inflammatory_score": {
+          "group_means": {
+            "Contra-Balance": 0.26628861883044824,
+            "Contra-Cross": 0.27884575535636524,
+            "Contra-Echo": 0.29555697754737864,
+            "Control": 0.2815613173996214,
+            "Pro": 0.28765918327676243
+          },
+          "anova": {
+            "f_stat": 1.0145138030099605,
+            "p_value": 0.39943806666025694
+          }
+        },
+        "obscene_score": {
+          "group_means": {
+            "Contra-Balance": 0.1404538354074203,
+            "Contra-Cross": 0.13830892525550206,
+            "Contra-Echo": 0.14284951704267554,
+            "Control": 0.1715015368083871,
+            "Pro": 0.15740152748015604
+          },
+          "anova": {
+            "f_stat": 0.8416725863312327,
+            "p_value": 0.49923187254722756
+          }
+        },
+        "spam_score": {
+          "group_means": {
+            "Contra-Balance": 0.10366139855186851,
+            "Contra-Cross": 0.08942204699401367,
+            "Contra-Echo": 0.09165028062350855,
+            "Control": 0.13673108801012973,
+            "Pro": 0.08754271992653347
+          },
+          "anova": {
+            "f_stat": 2.3088751293735643,
+            "p_value": 0.057169163960960945
+          }
+        },
+        "unsubstantial_score": {
+          "group_means": {
+            "Contra-Balance": 0.8467335363062514,
+            "Contra-Cross": 0.8479646572394277,
+            "Contra-Echo": 0.8421631838980463,
+            "Control": 0.8324175845380777,
+            "Pro": 0.8298853350539148
+          },
+          "anova": {
+            "f_stat": 1.5621775189530283,
+            "p_value": 0.18334585094319578
+          }
+        }
+      },
+      "significant_features": [
+        [
+          "insult_score",
+          0.02957420118308332,
+          2.7127054016905223,
+          {
+            "Contra-Balance": 0.058002910283329996,
+            "Contra-Cross": 0.050265414947306714,
+            "Contra-Echo": 0.07346005922132753,
+            "Control": 0.07237764803170596,
+            "Pro": 0.07922371705017837
+          }
+        ]
+      ]
+    },
+    "Medium": {
+      "stratum_info": {
+        "name": "Medium",
+        "word_count_range": [
+          "9",
+          "16"
+        ],
+        "mean_word_count": 12.118918918918919,
+        "total_comments": 3885,
+        "group_distribution": {
+          "Contra-Echo": "1045",
+          "Contra-Cross": "914",
+          "Pro": "831",
+          "Contra-Balance": "710",
+          "Control": "385"
+        }
+      },
+      "macro_results": {
+        "Toxicity": {
+          "group_means": {
+            "Contra-Balance": 0.06134524184531731,
+            "Contra-Cross": 0.059870586937719746,
+            "Contra-Echo": 0.06448503172685542,
+            "Control": 0.050271502450121734,
+            "Pro": 0.0644022289812189
+          },
+          "anova": {
+            "f_stat": 1.4843698292202183,
+            "p_value": 0.20568148106835368,
+            "eta_sq": 0.011996422911992552
+          }
+        },
+        "Communication_Style": {
+          "group_means": {
+            "Contra-Balance": 0.32580750043506673,
+            "Contra-Cross": 0.3292346508047108,
+            "Contra-Echo": 0.33550259995867926,
+            "Control": 0.32804773372188356,
+            "Pro": 0.32965350796467985
+          },
+          "anova": {
+            "f_stat": 0.5742135675937796,
+            "p_value": 0.6814689445779296,
+            "eta_sq": 0.004675084422810363
+          }
+        }
+      },
+      "micro_results": {
+        "toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.14843670169360973,
+            "Contra-Cross": 0.14782426786637734,
+            "Contra-Echo": 0.1625305099487902,
+            "Control": 0.12718036347486322,
+            "Pro": 0.1600501833937161
+          },
+          "anova": {
+            "f_stat": 1.9802621285658493,
+            "p_value": 0.09631931761366257
+          }
+        },
+        "severe_toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.00858171439973018,
+            "Contra-Cross": 0.007224599144113513,
+            "Contra-Echo": 0.006415995292349953,
+            "Control": 0.006633182594736921,
+            "Pro": 0.00625921678211063
+          },
+          "anova": {
+            "f_stat": 0.5782435386261012,
+            "p_value": 0.6785426766689205
+          }
+        },
+        "identity_attack_score": {
+          "group_means": {
+            "Contra-Balance": 0.042716377627532935,
+            "Contra-Cross": 0.044642262276349216,
+            "Contra-Echo": 0.03749795027752346,
+            "Control": 0.027561707718568057,
+            "Pro": 0.030999494951437438
+          },
+          "anova": {
+            "f_stat": 2.9288640932328924,
+            "p_value": 0.020579264708207493
+          }
+        },
+        "insult_score": {
+          "group_means": {
+            "Contra-Balance": 0.09315547182087297,
+            "Contra-Cross": 0.0824498875028051,
+            "Contra-Echo": 0.10278207839124912,
+            "Control": 0.07094317099539768,
+            "Pro": 0.10982657138000636
+          },
+          "anova": {
+            "f_stat": 3.11222485458281,
+            "p_value": 0.015135850927326574
+          }
+        },
+        "profanity_score": {
+          "group_means": {
+            "Contra-Balance": 0.04669505475982544,
+            "Contra-Cross": 0.05377865075680328,
+            "Contra-Echo": 0.049739455917556755,
+            "Control": 0.04128021968892947,
+            "Pro": 0.055355019342523494
+          },
+          "anova": {
+            "f_stat": 0.9440703708776834,
+            "p_value": 0.43810482408961504
+          }
+        },
+        "threat_score": {
+          "group_means": {
+            "Contra-Balance": 0.02848613077033272,
+            "Contra-Cross": 0.02330385407986979,
+            "Contra-Echo": 0.027944200533662828,
+            "Control": 0.02803037022823503,
+            "Pro": 0.023922888037519557
+          },
+          "anova": {
+            "f_stat": 0.5596885852938787,
+            "p_value": 0.692040874427302
+          }
+        },
+        "attack_on_commenter_score": {
+          "group_means": {
+            "Contra-Balance": 0.22349801583427883,
+            "Contra-Cross": 0.26036687295890887,
+            "Contra-Echo": 0.2417619349576101,
+            "Control": 0.2507412229748534,
+            "Pro": 0.2610171933999137
+          },
+          "anova": {
+            "f_stat": 1.3496347162777345,
+            "p_value": 0.2504884465038433
+          }
+        },
+        "inflammatory_score": {
+          "group_means": {
+            "Contra-Balance": 0.40794689728894407,
+            "Contra-Cross": 0.4015503280052486,
+            "Contra-Echo": 0.41823470314221056,
+            "Control": 0.3730513266445393,
+            "Pro": 0.4143051570558828
+          },
+          "anova": {
+            "f_stat": 1.7088610903636632,
+            "p_value": 0.14673111255494586
+          }
+        },
+        "obscene_score": {
+          "group_means": {
+            "Contra-Balance": 0.14887422874710074,
+            "Contra-Cross": 0.155520361437321,
+            "Contra-Echo": 0.17390860673373676,
+            "Control": 0.15002503324559935,
+            "Pro": 0.16145405657730233
+          },
+          "anova": {
+            "f_stat": 0.654896954322073,
+            "p_value": 0.6236500210154241
+          }
+        },
+        "spam_score": {
+          "group_means": {
+            "Contra-Balance": 0.09488135445693867,
+            "Contra-Cross": 0.0843120908646751,
+            "Contra-Echo": 0.09591464571346515,
+            "Control": 0.11542768423948829,
+            "Pro": 0.07796557807395066
+          },
+          "anova": {
+            "f_stat": 1.652173784539379,
+            "p_value": 0.1599519471088727
+          }
+        },
+        "unsubstantial_score": {
+          "group_means": {
+            "Contra-Balance": 0.7538370058480712,
+            "Contra-Cross": 0.7444236007574007,
+            "Contra-Echo": 0.7476931092463738,
+            "Control": 0.7509934015049375,
+            "Pro": 0.7335255547163497
+          },
+          "anova": {
+            "f_stat": 1.6270782885466644,
+            "p_value": 0.1661452676393232
+          }
+        }
+      },
+      "significant_features": [
+        [
+          "identity_attack_score",
+          0.020579264708207493,
+          2.9288640932328924,
+          {
+            "Contra-Balance": 0.042716377627532935,
+            "Contra-Cross": 0.044642262276349216,
+            "Contra-Echo": 0.03749795027752346,
+            "Control": 0.027561707718568057,
+            "Pro": 0.030999494951437438
+          }
+        ],
+        [
+          "insult_score",
+          0.015135850927326574,
+          3.11222485458281,
+          {
+            "Contra-Balance": 0.09315547182087297,
+            "Contra-Cross": 0.0824498875028051,
+            "Contra-Echo": 0.10278207839124912,
+            "Control": 0.07094317099539768,
+            "Pro": 0.10982657138000636
+          }
+        ]
+      ]
+    }
+  },
+  "Reply": {
+    "Short": {
+      "stratum_info": {
+        "name": "Short",
+        "word_count_range": [
+          "1",
+          "9"
+        ],
+        "mean_word_count": 5.2017977528089885,
+        "total_comments": 6675,
+        "group_distribution": {
+          "Pro": "2050",
+          "Contra-Cross": "1517",
+          "Contra-Echo": "1432",
+          "Contra-Balance": "1023",
+          "Control": "653"
+        }
+      },
+      "macro_results": {
+        "Toxicity": {
+          "group_means": {
+            "Contra-Balance": 0.04945994901990222,
+            "Contra-Cross": 0.06924901674017486,
+            "Contra-Echo": 0.04943360545268509,
+            "Control": 0.045186088358222506,
+            "Pro": 0.0747472814655839
+          },
+          "anova": {
+            "f_stat": 5.23859562628832,
+            "p_value": 0.0003926814012324707,
+            "eta_sq": 0.04430529302670106
+          }
+        },
+        "Communication_Style": {
+          "group_means": {
+            "Contra-Balance": 0.33237513773321664,
+            "Contra-Cross": 0.3518726468904073,
+            "Contra-Echo": 0.32902260600200445,
+            "Control": 0.3404117052072222,
+            "Pro": 0.35321792396546137
+          },
+          "anova": {
+            "f_stat": 5.210888051894438,
+            "p_value": 0.0004121376072330222,
+            "eta_sq": 0.0440812867390597
+          }
+        }
+      },
+      "micro_results": {
+        "toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.11666702946156822,
+            "Contra-Cross": 0.1556675030742783,
+            "Contra-Echo": 0.11364798940510336,
+            "Control": 0.1032108077758838,
+            "Pro": 0.16553532601416437
+          },
+          "anova": {
+            "f_stat": 6.038885381995623,
+            "p_value": 9.677031442520993e-05
+          }
+        },
+        "severe_toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.006930336366027872,
+            "Contra-Cross": 0.011162045950085476,
+            "Contra-Echo": 0.00973769479530287,
+            "Control": 0.007379260494861661,
+            "Pro": 0.01570915089269503
+          },
+          "anova": {
+            "f_stat": 1.6265204151336936,
+            "p_value": 0.16643849157064372
+          }
+        },
+        "identity_attack_score": {
+          "group_means": {
+            "Contra-Balance": 0.03232711999840772,
+            "Contra-Cross": 0.044863590387492984,
+            "Contra-Echo": 0.024154426896058595,
+            "Control": 0.025564736228995376,
+            "Pro": 0.041952857263732886
+          },
+          "anova": {
+            "f_stat": 2.3614226354777994,
+            "p_value": 0.05251033000102387
+          }
+        },
+        "insult_score": {
+          "group_means": {
+            "Contra-Balance": 0.07165128751932996,
+            "Contra-Cross": 0.1088152260005919,
+            "Contra-Echo": 0.07654849967457807,
+            "Control": 0.06727508263340497,
+            "Pro": 0.1181169263709484
+          },
+          "anova": {
+            "f_stat": 5.259534656702536,
+            "p_value": 0.00037858703308399377
+          }
+        },
+        "profanity_score": {
+          "group_means": {
+            "Contra-Balance": 0.04813789590889987,
+            "Contra-Cross": 0.07097918903538376,
+            "Contra-Echo": 0.04800620543429945,
+            "Control": 0.05108652327868727,
+            "Pro": 0.08209331234867345
+          },
+          "anova": {
+            "f_stat": 5.916252616728537,
+            "p_value": 0.00011998601722287018
+          }
+        },
+        "threat_score": {
+          "group_means": {
+            "Contra-Balance": 0.021046024865179674,
+            "Contra-Cross": 0.024006545993216593,
+            "Contra-Echo": 0.02450681651076807,
+            "Control": 0.016600119737502105,
+            "Pro": 0.02507611590328944
+          },
+          "anova": {
+            "f_stat": 0.37134140189274417,
+            "p_value": 0.8290819484118988
+          }
+        },
+        "attack_on_commenter_score": {
+          "group_means": {
+            "Contra-Balance": 0.33732440210445847,
+            "Contra-Cross": 0.4208409417203571,
+            "Contra-Echo": 0.3025772062561872,
+            "Control": 0.351616239734607,
+            "Pro": 0.40914485230213754
+          },
+          "anova": {
+            "f_stat": 11.204473124414278,
+            "p_value": 1.1242721238502469e-08
+          }
+        },
+        "inflammatory_score": {
+          "group_means": {
+            "Contra-Balance": 0.26575940088383493,
+            "Contra-Cross": 0.30035488606711186,
+            "Contra-Echo": 0.2542403707288579,
+            "Control": 0.24841461498312067,
+            "Pro": 0.3048718878963897
+          },
+          "anova": {
+            "f_stat": 5.22510148932996,
+            "p_value": 0.0004020400096437896
+          }
+        },
+        "obscene_score": {
+          "group_means": {
+            "Contra-Balance": 0.13033450220065693,
+            "Contra-Cross": 0.14258400715462127,
+            "Contra-Echo": 0.1380849423228288,
+            "Control": 0.16550428896308245,
+            "Pro": 0.1713237949636201
+          },
+          "anova": {
+            "f_stat": 2.157168760781153,
+            "p_value": 0.07290559743302574
+          }
+        },
+        "spam_score": {
+          "group_means": {
+            "Contra-Balance": 0.09183161181201456,
+            "Contra-Cross": 0.08262935093777883,
+            "Contra-Echo": 0.11379110058720543,
+            "Control": 0.1139375019951316,
+            "Pro": 0.07619289229379134
+          },
+          "anova": {
+            "f_stat": 2.808836875412681,
+            "p_value": 0.02522170178495999
+          }
+        },
+        "unsubstantial_score": {
+          "group_means": {
+            "Contra-Balance": 0.8366257716651186,
+            "Contra-Cross": 0.8129540485721677,
+            "Contra-Echo": 0.8364194101149431,
+            "Control": 0.8225858803601693,
+            "Pro": 0.8045561923713683
+          },
+          "anova": {
+            "f_stat": 5.661850168097948,
+            "p_value": 0.00018736424463039835
+          }
+        }
+      },
+      "significant_features": [
+        [
+          "toxicity_score",
+          9.677031442520993e-05,
+          6.038885381995623,
+          {
+            "Contra-Balance": 0.11666702946156822,
+            "Contra-Cross": 0.1556675030742783,
+            "Contra-Echo": 0.11364798940510336,
+            "Control": 0.1032108077758838,
+            "Pro": 0.16553532601416437
+          }
+        ],
+        [
+          "insult_score",
+          0.00037858703308399377,
+          5.259534656702536,
+          {
+            "Contra-Balance": 0.07165128751932996,
+            "Contra-Cross": 0.1088152260005919,
+            "Contra-Echo": 0.07654849967457807,
+            "Control": 0.06727508263340497,
+            "Pro": 0.1181169263709484
+          }
+        ],
+        [
+          "profanity_score",
+          0.00011998601722287018,
+          5.916252616728537,
+          {
+            "Contra-Balance": 0.04813789590889987,
+            "Contra-Cross": 0.07097918903538376,
+            "Contra-Echo": 0.04800620543429945,
+            "Control": 0.05108652327868727,
+            "Pro": 0.08209331234867345
+          }
+        ],
+        [
+          "attack_on_commenter_score",
+          1.1242721238502469e-08,
+          11.204473124414278,
+          {
+            "Contra-Balance": 0.33732440210445847,
+            "Contra-Cross": 0.4208409417203571,
+            "Contra-Echo": 0.3025772062561872,
+            "Control": 0.351616239734607,
+            "Pro": 0.40914485230213754
+          }
+        ],
+        [
+          "inflammatory_score",
+          0.0004020400096437896,
+          5.22510148932996,
+          {
+            "Contra-Balance": 0.26575940088383493,
+            "Contra-Cross": 0.30035488606711186,
+            "Contra-Echo": 0.2542403707288579,
+            "Control": 0.24841461498312067,
+            "Pro": 0.3048718878963897
+          }
+        ],
+        [
+          "spam_score",
+          0.02522170178495999,
+          2.808836875412681,
+          {
+            "Contra-Balance": 0.09183161181201456,
+            "Contra-Cross": 0.08262935093777883,
+            "Contra-Echo": 0.11379110058720543,
+            "Control": 0.1139375019951316,
+            "Pro": 0.07619289229379134
+          }
+        ],
+        [
+          "unsubstantial_score",
+          0.00018736424463039835,
+          5.661850168097948,
+          {
+            "Contra-Balance": 0.8366257716651186,
+            "Contra-Cross": 0.8129540485721677,
+            "Contra-Echo": 0.8364194101149431,
+            "Control": 0.8225858803601693,
+            "Pro": 0.8045561923713683
+          }
+        ]
+      ]
+    },
+    "Medium": {
+      "stratum_info": {
+        "name": "Medium",
+        "word_count_range": [
+          "10",
+          "20"
+        ],
+        "mean_word_count": 14.320087098530212,
+        "total_comments": 5511,
+        "group_distribution": {
+          "Pro": "1703",
+          "Contra-Cross": "1382",
+          "Contra-Echo": "1078",
+          "Contra-Balance": "842",
+          "Control": "506"
+        }
+      },
+      "macro_results": {
+        "Toxicity": {
+          "group_means": {
+            "Contra-Balance": 0.0884907839389768,
+            "Contra-Cross": 0.08366945901638628,
+            "Contra-Echo": 0.08047318684423672,
+            "Control": 0.08162888487366271,
+            "Pro": 0.0918005546330323
+          },
+          "anova": {
+            "f_stat": 0.6870689643945329,
+            "p_value": 0.6012066243736549,
+            "eta_sq": 0.006321533655669858
+          }
+        },
+        "Communication_Style": {
+          "group_means": {
+            "Contra-Balance": 0.3491350544539613,
+            "Contra-Cross": 0.3620052412031,
+            "Contra-Echo": 0.34507758942636474,
+            "Control": 0.3496918159396592,
+            "Pro": 0.3488441459744341
+          },
+          "anova": {
+            "f_stat": 1.1182290150510181,
+            "p_value": 0.3472930376744221,
+            "eta_sq": 0.010247866237792233
+          }
+        }
+      },
+      "micro_results": {
+        "toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.20374985521273437,
+            "Contra-Cross": 0.19777057611570348,
+            "Contra-Echo": 0.19393020838165423,
+            "Control": 0.19201506769007867,
+            "Pro": 0.21148198753753003
+          },
+          "anova": {
+            "f_stat": 0.4565043277688317,
+            "p_value": 0.767652489708684
+          }
+        },
+        "severe_toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.013959657720732427,
+            "Contra-Cross": 0.012058459048318409,
+            "Contra-Echo": 0.00979667790551457,
+            "Control": 0.010809171742854442,
+            "Pro": 0.012780865488959497
+          },
+          "anova": {
+            "f_stat": 0.7893385477650386,
+            "p_value": 0.5325325011497459
+          }
+        },
+        "identity_attack_score": {
+          "group_means": {
+            "Contra-Balance": 0.07447474971276455,
+            "Contra-Cross": 0.0628017305544505,
+            "Contra-Echo": 0.04887185039465879,
+            "Control": 0.05471643131002638,
+            "Pro": 0.05868937749477586
+          },
+          "anova": {
+            "f_stat": 1.9255239581804193,
+            "p_value": 0.10519609171566888
+          }
+        },
+        "insult_score": {
+          "group_means": {
+            "Contra-Balance": 0.14003245338184667,
+            "Contra-Cross": 0.13145189541953903,
+            "Contra-Echo": 0.143111263314655,
+            "Control": 0.13701133853101177,
+            "Pro": 0.15957257632478633
+          },
+          "anova": {
+            "f_stat": 0.878696974719174,
+            "p_value": 0.47656355134888606
+          }
+        },
+        "profanity_score": {
+          "group_means": {
+            "Contra-Balance": 0.07114548951618564,
+            "Contra-Cross": 0.06952219744872892,
+            "Contra-Echo": 0.06421996212075126,
+            "Control": 0.06797330328832395,
+            "Pro": 0.08158315560026631
+          },
+          "anova": {
+            "f_stat": 1.0201255136080405,
+            "p_value": 0.3965176487834029
+          }
+        },
+        "threat_score": {
+          "group_means": {
+            "Contra-Balance": 0.02758249808959712,
+            "Contra-Cross": 0.028411895511577336,
+            "Contra-Echo": 0.022909158948186504,
+            "Control": 0.027247996679681138,
+            "Pro": 0.02669536535187567
+          },
+          "anova": {
+            "f_stat": 0.45044077254034637,
+            "p_value": 0.7720849521275915
+          }
+        },
+        "attack_on_commenter_score": {
+          "group_means": {
+            "Contra-Balance": 0.3851482889323121,
+            "Contra-Cross": 0.46332024562831475,
+            "Contra-Echo": 0.32454976489130494,
+            "Control": 0.3767523332675884,
+            "Pro": 0.4184312804385884
+          },
+          "anova": {
+            "f_stat": 7.8694001330161525,
+            "p_value": 3.956808727327189e-06
+          }
+        },
+        "inflammatory_score": {
+          "group_means": {
+            "Contra-Balance": 0.44837836715260715,
+            "Contra-Cross": 0.4258442020346184,
+            "Contra-Echo": 0.4551074589901868,
+            "Control": 0.42105238201346645,
+            "Pro": 0.4295296032599915
+          },
+          "anova": {
+            "f_stat": 1.136251398715702,
+            "p_value": 0.33880427154130255
+          }
+        },
+        "obscene_score": {
+          "group_means": {
+            "Contra-Balance": 0.17361069076892127,
+            "Contra-Cross": 0.17578850470685287,
+            "Contra-Echo": 0.1710174535527458,
+            "Control": 0.21248608875903466,
+            "Pro": 0.17829425562318096
+          },
+          "anova": {
+            "f_stat": 0.6991101861742917,
+            "p_value": 0.5928913137954142
+          }
+        },
+        "spam_score": {
+          "group_means": {
+            "Contra-Balance": 0.06984631222518599,
+            "Contra-Cross": 0.08679288113657993,
+            "Contra-Echo": 0.07509310049542055,
+            "Control": 0.0857201410389809,
+            "Pro": 0.06971888431388525
+          },
+          "anova": {
+            "f_stat": 0.6267707491271928,
+            "p_value": 0.6436309163801764
+          }
+        },
+        "unsubstantial_score": {
+          "group_means": {
+            "Contra-Balance": 0.6686916131907799,
+            "Contra-Cross": 0.6582803725091345,
+            "Contra-Echo": 0.6996201692021653,
+            "Control": 0.6524481346192258,
+            "Pro": 0.6482467062365241
+          },
+          "anova": {
+            "f_stat": 5.258172733910226,
+            "p_value": 0.0003828329492871102
+          }
+        }
+      },
+      "significant_features": [
+        [
+          "attack_on_commenter_score",
+          3.956808727327189e-06,
+          7.8694001330161525,
+          {
+            "Contra-Balance": 0.3851482889323121,
+            "Contra-Cross": 0.46332024562831475,
+            "Contra-Echo": 0.32454976489130494,
+            "Control": 0.3767523332675884,
+            "Pro": 0.4184312804385884
+          }
+        ],
+        [
+          "unsubstantial_score",
+          0.0003828329492871102,
+          5.258172733910226,
+          {
+            "Contra-Balance": 0.6686916131907799,
+            "Contra-Cross": 0.6582803725091345,
+            "Contra-Echo": 0.6996201692021653,
+            "Control": 0.6524481346192258,
+            "Pro": 0.6482467062365241
+          }
+        ]
+      ]
+    },
+    "Long": {
+      "stratum_info": {
+        "name": "Long",
+        "word_count_range": [
+          "21",
+          "645"
+        ],
+        "mean_word_count": 47.243316873829386,
+        "total_comments": 5873,
+        "group_distribution": {
+          "Pro": "2047",
+          "Contra-Cross": "1291",
+          "Contra-Echo": "1103",
+          "Contra-Balance": "904",
+          "Control": "528"
+        }
+      },
+      "macro_results": {
+        "Toxicity": {
+          "group_means": {
+            "Contra-Balance": 0.09902378137577952,
+            "Contra-Cross": 0.09644334091999068,
+            "Contra-Echo": 0.09717233975902971,
+            "Control": 0.08664883969350223,
+            "Pro": 0.10799443466926541
+          },
+          "anova": {
+            "f_stat": 1.1131262047118264,
+            "p_value": 0.3498158756990441,
+            "eta_sq": 0.010795194032832663
+          }
+        },
+        "Communication_Style": {
+          "group_means": {
+            "Contra-Balance": 0.3218077898617183,
+            "Contra-Cross": 0.3224256330661272,
+            "Contra-Echo": 0.31429851455430213,
+            "Control": 0.3111720348692674,
+            "Pro": 0.31219414923682814
+          },
+          "anova": {
+            "f_stat": 0.3968159128165883,
+            "p_value": 0.8109363430988765,
+            "eta_sq": 0.003875275898758887
+          }
+        }
+      },
+      "micro_results": {
+        "toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.22417710427944684,
+            "Contra-Cross": 0.22004276112614235,
+            "Contra-Echo": 0.22501676917195776,
+            "Control": 0.197882186634828,
+            "Pro": 0.2362072697309542
+          },
+          "anova": {
+            "f_stat": 0.890322335271321,
+            "p_value": 0.4696384631084972
+          }
+        },
+        "severe_toxicity_score": {
+          "group_means": {
+            "Contra-Balance": 0.013262961653980875,
+            "Contra-Cross": 0.011552432766961083,
+            "Contra-Echo": 0.010908551513964427,
+            "Control": 0.009591929166376998,
+            "Pro": 0.018105684643982104
+          },
+          "anova": {
+            "f_stat": 1.6654534613901388,
+            "p_value": 0.1571331110986267
+          }
+        },
+        "identity_attack_score": {
+          "group_means": {
+            "Contra-Balance": 0.09754092893528571,
+            "Contra-Cross": 0.09045421451794385,
+            "Contra-Echo": 0.07645233418700373,
+            "Control": 0.06268499470369326,
+            "Pro": 0.07672053124394863
+          },
+          "anova": {
+            "f_stat": 2.0736066967639926,
+            "p_value": 0.0834632306762764
+          }
+        },
+        "insult_score": {
+          "group_means": {
+            "Contra-Balance": 0.16236440061637733,
+            "Contra-Cross": 0.16374710440753773,
+            "Contra-Echo": 0.16944222704184994,
+            "Control": 0.14706704904075854,
+            "Pro": 0.1853669904152497
+          },
+          "anova": {
+            "f_stat": 1.0494724304501488,
+            "p_value": 0.3813336981153844
+          }
+        },
+        "profanity_score": {
+          "group_means": {
+            "Contra-Balance": 0.06821879491966523,
+            "Contra-Cross": 0.06662422966802663,
+            "Contra-Echo": 0.07203104519784692,
+            "Control": 0.07576669762809146,
+            "Pro": 0.09827233425056106
+          },
+          "anova": {
+            "f_stat": 2.5645838603537303,
+            "p_value": 0.037876416052822895
+          }
+        },
+        "threat_score": {
+          "group_means": {
+            "Contra-Balance": 0.028578497849921343,
+            "Contra-Cross": 0.02623930303333257,
+            "Contra-Echo": 0.02918311144155568,
+            "Control": 0.026900180987265015,
+            "Pro": 0.03329379773089657
+          },
+          "anova": {
+            "f_stat": 0.5160215210549504,
+            "p_value": 0.7240033379709236
+          }
+        },
+        "attack_on_commenter_score": {
+          "group_means": {
+            "Contra-Balance": 0.3918955946343116,
+            "Contra-Cross": 0.46163136430186885,
+            "Contra-Echo": 0.2818001220389848,
+            "Control": 0.4037673894937828,
+            "Pro": 0.43460640487400626
+          },
+          "anova": {
+            "f_stat": 12.158177212406722,
+            "p_value": 2.3962720146628474e-09
+          }
+        },
+        "inflammatory_score": {
+          "group_means": {
+            "Contra-Balance": 0.5308514557788655,
+            "Contra-Cross": 0.48014305791229284,
+            "Contra-Echo": 0.540081256556722,
+            "Control": 0.44674855762495075,
+            "Pro": 0.4755387915493264
+          },
+          "anova": {
+            "f_stat": 5.4268844839210635,
+            "p_value": 0.00028885210550252163
+          }
+        },
+        "obscene_score": {
+          "group_means": {
+            "Contra-Balance": 0.18607370173095408,
+            "Contra-Cross": 0.18743930145214785,
+            "Contra-Echo": 0.21142590433782527,
+            "Control": 0.20585533319971483,
+            "Pro": 0.23937055618114753
+          },
+          "anova": {
+            "f_stat": 1.3492127819631925,
+            "p_value": 0.2509759723587908
+          }
+        },
+        "spam_score": {
+          "group_means": {
+            "Contra-Balance": 0.08166763505826904,
+            "Contra-Cross": 0.08157008476679427,
+            "Contra-Echo": 0.08797941948308924,
+            "Control": 0.09596179689372958,
+            "Pro": 0.06068077747959866
+          },
+          "anova": {
+            "f_stat": 1.8117141116157458,
+            "p_value": 0.12564937972682771
+          }
+        },
+        "unsubstantial_score": {
+          "group_means": {
+            "Contra-Balance": 0.4185505621061919,
+            "Contra-Cross": 0.4013443568975327,
+            "Contra-Echo": 0.4502058703548898,
+            "Control": 0.40352709713415924,
+            "Pro": 0.35077421610006154
+          },
+          "anova": {
+            "f_stat": 10.444185605345183,
+            "p_value": 4.6045783379736095e-08
+          }
+        }
+      },
+      "significant_features": [
+        [
+          "profanity_score",
+          0.037876416052822895,
+          2.5645838603537303,
+          {
+            "Contra-Balance": 0.06821879491966523,
+            "Contra-Cross": 0.06662422966802663,
+            "Contra-Echo": 0.07203104519784692,
+            "Control": 0.07576669762809146,
+            "Pro": 0.09827233425056106
+          }
+        ],
+        [
+          "attack_on_commenter_score",
+          2.3962720146628474e-09,
+          12.158177212406722,
+          {
+            "Contra-Balance": 0.3918955946343116,
+            "Contra-Cross": 0.46163136430186885,
+            "Contra-Echo": 0.2818001220389848,
+            "Control": 0.4037673894937828,
+            "Pro": 0.43460640487400626
+          }
+        ],
+        [
+          "inflammatory_score",
+          0.00028885210550252163,
+          5.4268844839210635,
+          {
+            "Contra-Balance": 0.5308514557788655,
+            "Contra-Cross": 0.48014305791229284,
+            "Contra-Echo": 0.540081256556722,
+            "Control": 0.44674855762495075,
+            "Pro": 0.4755387915493264
+          }
+        ],
+        [
+          "unsubstantial_score",
+          4.6045783379736095e-08,
+          10.444185605345183,
+          {
+            "Contra-Balance": 0.4185505621061919,
+            "Contra-Cross": 0.4013443568975327,
+            "Contra-Echo": 0.4502058703548898,
+            "Control": 0.40352709713415924,
+            "Pro": 0.35077421610006154
+          }
+        ]
+      ]
+    }
+  }
+}
