@@ -1,6 +1,6 @@
 This folder contains the data used for all the analysis. 
 Specifically, it contains 2 files: 
 1) Dataset_Total.zip: contains ALL comments used in the paper, with their metadata, including stance and parent-child relation. 
-2) Active_Users.json: contains the comments only of the most active users. For each user, we provide the belonging group, all the comments posted, with toxicity attribute and stance. 
-3) Training_Data.jsonl.zip: contains the data used for training the ML model for stance detection (it has to be decompressed to be used). 
+2) Active_Users.json.zip: contains the comments only of the most active users. For each user, we provide the belonging group, all the comments posted, with toxicity attribute and stance. 
+3) Training_Data.jsonl.zip: contains the data used for training the ML model for stance detection. 
 4) Test_Data.jsonl: contains the Gold Set manually labeled we used for testing our model's performance.   
