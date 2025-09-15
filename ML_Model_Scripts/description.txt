@@ -1,0 +1,1 @@
+This folder contains all the script necessary for trainining, testing and scaling the inference about the Stance Detection
