@@ -1,0 +1,9 @@
+Model: DeBERTa-v3-large
+Hardware: 2× Nvidia Tesla V100S
+Optimization: Optuna
+Data Split: 90% train, 10% test
+Learning Rate: 1.2e-5
+Batch Size: 128 (effective)
+Epochs: 5 (with early stopping)
+Regularization: WD=0.05, LS=0.15
+Runs: 3 (seeds: 42, 123, 456)
