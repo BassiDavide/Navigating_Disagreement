@@ -7,8 +7,7 @@ The dataset has been uploaded here for anonymity during peer review. Upon accept
 
 For peer-review transparency, we also upload the Annotation Guidelines used to augment our test set. However, we do not own them: they are publicly available from the repository of the paper
 A Pipeline for the Analysis of User Interactions in YouTube Comments: A Hybridization of LLMs and Rule-Based Methods
-(https://doi.org/10.1109/SNAMS64316.2024.10883781
-).
+
 
 ## Repository Folder Descriptions
 ### Analysis
