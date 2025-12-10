@@ -6,7 +6,7 @@ The project examines how persistent YouTube commenters navigate contentious poli
 The dataset has been uploaded here for anonymity during peer review. Upon acceptance, it will be made publicly available in a Zenodo repository under the Creative Commons Attribution 4.0 International license.
 
 For peer-review transparency, we also upload the Annotation Guidelines used to augment our test set. However, we do not own them: they are publicly available from the repository of the paper
-A Pipeline for the Analysis of User Interactions in YouTube Comments: A Hybridization of LLMs and Rule-Based Methods
+A Pipeline for the Analysis of User Interactions in YouTube Comments: A Hybridization of LLMs and Rule-Based Methods (https://doi.org/10.1109/SNAMS64316.2024.10883781).
 
 
 ## Repository Folder Descriptions
