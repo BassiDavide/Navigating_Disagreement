@@ -1,1 +1,3 @@
 .DS_Store
+# Rehydrated data contains YouTube comment texts and author names: do not commit it.
+Data/rehydrated/

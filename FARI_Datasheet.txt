@@ -23,7 +23,7 @@ The dataset comprises 3499 videos, for a total of 1.673.351 comments
 It contains all the crawled comments.
 
 8. What data does each instance consist of?
-{"CommentID","VideoID","CommentText","AuthorName"[anonymized],"NumberOfLikes","Timestamp","ChannelLeaning","Source","PeriodTimestamp","VideoTitle","predicted_stance"}
+{"CommentID","VideoID","CommentText"[not distributed, restored via rehydration],"AuthorName"[not distributed, restored via rehydration],"NumberOfLikes","Timestamp","ChannelLeaning","Source","PeriodTimestamp","VideoTitle","predicted_stance"}
 
 9. Is there a label or target associated with each instance?
 Yes, the predicted/labeled stance of the entry  
@@ -45,7 +45,7 @@ No, there are not.
 
 14. Is the dataset self-contained, or does it link to or otherwise rely on
 external resources (e.g., websites, tweets, other datasets)? 
-No, the dataset can be used as it is
+It relies on YouTube: the dataset is distributed in dehydrated form (YouTube IDs, metadata and annotations), and comment texts and author names must be retrieved from the YouTube Data API v3 with the provided script (Data/rehydrate.py). Comments deleted after collection cannot be retrieved.
 
 15. Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–
 patient confidentiality, data that includes the content of individuals’ non-public communications)?
@@ -63,7 +63,7 @@ If the whole dataset is extracted, it is possible to identify users who share po
 
 19. Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic
 data; forms of government identification, such as social security numbers; criminal history)?
-Most of the comments are about political opinion. However they are anonymized, so not identifiable.
+Most of the comments are about political opinion. Comment texts and author names are not distributed; they can only be retrieved from YouTube under the YouTube API Terms of Service, and comments deleted by their authors are no longer retrievable.
 
 20. How was the data associated with each instance acquired?
 The data is observable (it is coming from YouTube).

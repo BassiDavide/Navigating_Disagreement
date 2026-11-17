@@ -29,7 +29,7 @@ Provides processed and intermediate datasets required to run the analysis pipeli
 3) recency-bias audit results assessing stability of video retrieval over time
 4) aggregated yearly stance distributions for channels and user groups
 
-NB: Raw identifiers are anonymized in accordance with ethical guidelines.
+NB: The datasets are released in dehydrated form, in line with the YouTube Terms of Service: comment texts and author names are not distributed, only YouTube IDs, metadata and annotations. They can be restored with `Data/rehydrate.py` and a YouTube Data API key; see [Data/README.md](Data/README.md).
 
 ### Data_Crawling&Annotation
 
